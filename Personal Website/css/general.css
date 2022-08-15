@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+    font-family:monospace;
+    justify-content: center;
+}
+
+a {
+    margin: auto;
+}
+
+.nav-link {
+    color: black;
+}
+
+li {
+    margin: auto;
+}
+.nav-item {
+    font-size: 40px;
+    border-left: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    width: 300px;
+    text-align: center;
+}
+.nav-item:hover {
+    background-color: lightcyan;
+    border-left: 2px solid black;
+    border-bottom: 2px solid darkslategrey;
+}
+
+nav {
+    display: flexbox;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+div {
+    margin: flex;
+}
+.reactive-element:hover {
+    background-color: lightcyan;
+    border-left: 2px solid black;
+    border-bottom: 2px solid darkslategrey;
+}

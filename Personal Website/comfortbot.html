@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--DESCRIPTION:
+    This page will be used to showcase ComfortBot functionality through either
+    a basic HTML Discord embed or a React one if I can pick that up fast enough-->
+<!--PURPOSE:
+    This page exists to 1. show off a Discord Bot I'm working on and 2. Practice
+    embedding different applications into websites-->
+<html>
+    <head>
+        <title>projects | elijah shaw</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+              crossorigin="anonymous">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="media/logo-small.png" rel="icon"> 
+    </head>
+
+    <body>
+        <header style="text-align:center">
+            <h1>CURRENTLY UNDER CONSTRUCTION: PLEASE EXCUSE ANY MISSING PAGES OR FUNCTIONALITY</h1>
+        </header>
+        <div class="row">
+            <div class="col-md-6">
+                
+            </div>
+            <div class="col-md-3">
+                <div class="container" >
+                    <img src="media/logo-small.png" alt="Logo" width="50px" height="50px">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <nav class="navbar navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comfortbot.html">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="connect.html">connect</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <!-- spacing block -->
+            </div>
+            <div class="col-md-3">
+                <div class="container reactive-element">
+                    <h1>ComfortBot Discord Bot</h1>
+                    <p style="font-size: 20px;">
+                        ComfortBot is a WIP Discord Bot I'm currently developing.
+                        As such, its functionality is limited right now; however, 
+                        I've attached instructions and a view into its testing
+                        server so anyone can try out its easy-to-display commands
+                        and features. 
+                    </p>
+                    <h2>Testing Instructions</h2>
+                    <p style="font-size: 20px;">
+                        1. Because ComfortBot is still in early development, I'm not
+                        keeping it online constantly. Please go to its 
+                        <a href="https://replit.com/@elijahcshaw/ComfortBot" target="_blank">
+                            Replit link
+                        </a>
+                         and click "Run" at the top of the page in order to bring the bot online.
+                        The bot will probably take about a minute to come online fully, so please 
+                        be patient! (You can watch Replit's terminal to see when it's done)
+                    </p>
+                    <p style="font-size: 20px;">
+                        2. ComfortBot should now be online, and the viewport on the right 
+                        should allow you to login to Discord or simply give yourself a nickname.
+                    </p>
+                    <p style="font-size: 20px;">
+                        3. You should be able to test any available commands ComfortBot has 
+                        been given. Note that because of the limited viewport, audio commands
+                        aren't truly testable, but any text command should be visibly functional.
+                        To get started, type "$help" to get a list of ComfortBot's current commands.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <widgetbot
+                    server="917534529776910386"
+                    channel="1008586305229295626"
+                    width="1000"
+                    height="770"
+                ></widgetbot>
+                <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+            </div>
+            <div class="col-md-2">
+                <!-- spacing block -->
+            </div>
+        </div>
+    </body>
+</html>
