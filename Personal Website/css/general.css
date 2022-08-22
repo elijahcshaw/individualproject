@@ -7,13 +7,34 @@ body {
 a {
     margin: auto;
 }
-
 .nav-link {
     color: black;
+    font-size: 40px;
+    border-left: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    text-align: center;
+}
+.nav-link:hover {
+    background-color: lightcyan;
+    border-left: 2px solid black;
+    border-bottom: 2px solid darkslategrey;
 }
 
-li {
-    margin: auto;
+nav {
+    margin-top: 20px;
+}
+
+div {
+    margin: flex;
+}
+.reactive-element{
+    border-left: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+}
+.reactive-element:hover {
+    background-color: lightcyan;
+    border-left: 2px solid black;
+    border-bottom: 2px solid darkslategrey;
 }
 .nav-item {
     font-size: 40px;
@@ -21,23 +42,10 @@ li {
     border-bottom: 2px solid lightblue;
     width: 300px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .nav-item:hover {
-    background-color: lightcyan;
-    border-left: 2px solid black;
-    border-bottom: 2px solid darkslategrey;
-}
-
-nav {
-    display: flexbox;
-    margin-right: 10%;
-    margin-top: 20px;
-}
-
-div {
-    margin: flex;
-}
-.reactive-element:hover {
     background-color: lightcyan;
     border-left: 2px solid black;
     border-bottom: 2px solid darkslategrey;
