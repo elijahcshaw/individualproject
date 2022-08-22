@@ -16,40 +16,30 @@
     </head>
 
     <body>
-        <header style="text-align:center">
-            <h1>CURRENTLY UNDER CONSTRUCTION: PLEASE EXCUSE ANY MISSING PAGES OR FUNCTIONALITY</h1>
-        </header>
-        <div class="row">
-            <div class="col-md-6">
-                
-            </div>
-            <div class="col-md-3">
-                <div class="container" >
-                    <img src="media/logo-small.png" alt="Logo" width="50px" height="50px">
-                </div>
-            </div>
-            <div class="col-md-3">
-                <nav class="navbar navbar-collapse justify-content-end">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="comfortbot.html">projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="connect.html">connect</a>
-                        </li>
-                    </ul>
-                </nav>
+        <div class="row" style="padding-bottom: 150px;">
+            <div class="container-fluid" style="max-width:1500px; border-bottom: 5px solid black;">
+                    <nav class="navbar nav-justified navbar-expand-lg">
+
+                                <a class="nav-link" href="index.html">home</a>
+                            
+                                <a class="nav-link" href="comfortbot.html">projects</a>
+                                <!--This ^^^ will become a dropdown as I move other
+                                    projects here, but it doesn't make sense to have a dropdown
+                                    with one entry-->
+                                <a class="nav-link" href="connect.html">connect</a>
+                        
+                    </nav>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="padding-bottom: 20px;">
             <div class="col-md-2">
                 <!-- spacing block -->
             </div>
-            <div class="col-md-3">
+            <!--I'm still trying to figure out exactly how to format this part. It's awkward 
+                side-by-side but it was even worse above-and-below. For now, this works, but
+                I'd like to get this page formatted perfectly in the future.-->
+            <div class="col-md-4">
                 <div class="container reactive-element">
                     <h1>ComfortBot Discord Bot</h1>
                     <p style="font-size: 20px;">
@@ -57,31 +47,63 @@
                         As such, its functionality is limited right now; however, 
                         I've attached instructions and a view into its testing
                         server so anyone can try out its easy-to-display commands
-                        and features. 
-                    </p>
-                    <h2>Testing Instructions</h2>
-                    <p style="font-size: 20px;">
-                        1. ComfortBot should already be online, and the viewport on the right 
-                        should allow you to login to Discord or simply give yourself a nickname. 
-                        If it's not working, it's likely a server issue, so please come try it again 
-                        at a later date.
-                    </p>
-                    <p style="font-size: 20px;">
-                        3. You should be able to test any available commands ComfortBot has 
-                        been given. Note that because of the limited viewport, audio commands
-                        aren't truly testable, but any text command should be visibly functional.
-                        To get started, type "$help" to get a list of ComfortBot's current commands.
+                        and features. As ComfortBot is updated, it's very likely a 
+                        changelog will be added to this page, keeping track of exactly 
+                        what features were added when. The current plan is to create three 
+                        major features before any public release: the YouTube audio player 
+                        (already functional but needs some tweaking and additional support), 
+                        a mid-level calculator set of commands, and a word definition search.
+                        The goal with ComfortBot is to create ease-of-access to various media
+                        and information, so users don't need to be leaving Discord or streaming
+                        to show each other something. Updates past these features will reflect
+                        that goal as well.
                     </p>
                 </div>
             </div>
-            <div class="col-md-5">
-                <widgetbot
+            <div class="col-md-4">
+                <div class="container reactive-element">
+                    <h1>Testing Instructions</h1>
+                    <p style="font-size: 20px;">
+                        1. ComfortBot should already be online, and the viewport on the right 
+                        should allow you to login to Discord or simply give yourself a nickname. 
+                        If it's not working, it's likely a server issue with the bot itself, so 
+                        please come try it again at a later date!
+                    </p>
+                    <p style="font-size: 20px;">
+                        2. You should be able to test any available commands ComfortBot has 
+                        been given. Note that because of the limited viewport, audio commands
+                        aren't testable, but any text command should be visibly functional.
+                        To get started, type "$help" to get a list of ComfortBot's current commands.
+                        NOTE: As of now, ComfortBot's text commands are VERY limited. It's also 
+                        being moved to a different hosting platform, so it may be unavailable here 
+                        to test for some time.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <!-- spacing block -->
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <!-- spacing block -->
+            </div>
+            
+            <!--This is a special HTML embed that allows the website's viewer to see into a 
+                Discord server. Its purpose here is to let them test my bot's commands as it
+                grows in functionality. This was by far one of the hardest things to figure out
+                the formatting for-->
+            <div class="col-md-8">
+                <div class="container-fluid" style="padding-bottom:10px;">
+                    <widgetbot
                     server="917534529776910386"
                     channel="1008586305229295626"
-                    width="1000"
+                    width="100%"
                     height="770"
-                ></widgetbot>
-                <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script><!--Mark's comment 8/15: That's pretty neat.-->
+                    ></widgetbot>
+                    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+                </div>
+                
             </div>
             <div class="col-md-2">
                 <!-- spacing block -->

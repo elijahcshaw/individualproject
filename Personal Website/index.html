@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!--This is the homepage, so it will be a basic starting point and intro
     for this as a personal website, will contain mostly just info and 
-    background on me-->
+    background on me. For the website overall, I wanted to go with a minimalist
+    feel, especially due to the fact I don't have a ton to put on it yet. As time
+    goes on and I add more to the site, the complexity might significantly increase,
+    but for now the site's pretty simple and functional.-->
 <html>
     <head>
         <title>elijah shaw</title>
@@ -15,43 +18,42 @@
     </head>
 
     <body>
-        <header style="text-align:center">
-            <h1>CURRENTLY UNDER CONSTRUCTION: PLEASE EXCUSE ANY MISSING PAGES OR FUNCTIONALITY</h1>
-        </header>
-        <div class="row">
-            <div class="col-md-6">
-                
-            </div>
-            <div class="col-md-3">
-                <div class="container" >
-                    <img src="media/logo-small.png" alt="Logo" width="50px" height="50px">
+        <div class="row" style="padding-bottom: 150px;">
+                <div class="container-fluid" style="max-width:1500px; border-bottom: 5px solid black;">
+                        <nav class="navbar nav-justified navbar-expand-lg">
+                                    <a class="nav-link" href="index.html">home</a>
+                                    
+                                    <a class="nav-link" href="comfortbot.html">projects</a>
+                                    <!--This ^^^ will become a dropdown as I move other
+                                        projects here, but it doesn't make sense to have a dropdown
+                                        with one entry-->
+                                    <a class="nav-link" href="connect.html">connect</a>
+                            
+                        </nav>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <nav class="navbar navbar-collapse justify-content-end">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="comfortbot.html">projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="connect.html">connect</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
         </div>
 
         <div class="row">
-            <div class="col-md-1">
-
+            <div class="col-md-2">
+                <!-- spacing block -->
             </div>
-            <div class="col-md-5">
+            <div class="col-md-8">
+                <!--Because I don't have a ton of content to shove into these pages right now,
+                    I wanted to add some kind of responsive element to the page, so I made a CSS
+                    class that lights up and almost provides a shadow to areas you're viewing. It's
+                    essentially the same as the navbar buttons' hover, which I'm still conflicted
+                    about. I like this idea, I just feel like I need a way to make it similar but 
+                    still noticeably different from the navbar hover-->
                 <div class="container reactive-element">
+                    <!--Hopefully in the next few years this bio will fill out much more. I don't
+                        feel super comfortable putting my entire life story onto a website, but as
+                        I move into the CS field, I could talk more about what experience I have and
+                        what I enjoy, or anything else that's a little less identifying, for lack of
+                        a better word.-->
                     <h1 style="font-size:100px">elijah shaw</h1>
-                    <p style="font-size:30px">cs student / animal volunteer / music enthusiast</p>
+                    <p style="font-size:30px">
+                        comp. sci. student / animal volunteer / music enthusiast
+                    </p>
                     <p style="font-size:20px">
                         Hey! My name's Elijah, and I'm currently a senior
                         in UW Bothell's undergraduate Computer Science &
@@ -60,11 +62,12 @@
                         and am hoping to eventually move into the field of cybersecurity
                         engineering. I spend my free time listening to music, hanging 
                         with friends, and going on the occasional hike. I love dogs and 
-                        volunteer weekly at my local shelter.</p>
+                        volunteer weekly at my local shelter.
+                    </p>
                 </div>
             </div>
-            <div class="col-mid-6">
-
+            <div class="col-mid-2">
+                <!-- spacing block -->
             </div>
         </div>
     </body>
